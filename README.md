@@ -55,5 +55,5 @@ npm test
 5. **Example Solution**: An example of one of the challenge solutions and the corresponding test.
 6. **License**: Information about the project's license.
 
-Make sure to replace `yourusername` with your actual GitHub and Codewars usernames. This `README.md` should be clear and useful both for you and for other developers who might want to use your solutions.
+
 ```

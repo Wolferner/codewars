@@ -10,4 +10,19 @@
  * uniqueInOrder([1,2,2,3,3])       == [1,2,3]
  */
 
-const uniqueInOrder = iterable => {};
+const uniqueInOrder = iterable => {
+	const newArray = [];
+
+	for (const [index, value] of [...iterable].entries()) {
+		if (value !== iterable[index + 1]) {
+			newArray.push(value);
+		}
+	}
+	return newArray;
+};
+
+uniqueInOrder('AAAABBBCCDAABBB');
+
+// const uniqueInOrder = iterable => {
+// 	return [...iterable].filter((a, i) => a !== iterable[i - 1]);
+// };
