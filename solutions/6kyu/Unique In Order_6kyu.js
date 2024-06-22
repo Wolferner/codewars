@@ -21,8 +21,8 @@ const uniqueInOrder = iterable => {
 	return newArray;
 };
 
-uniqueInOrder('AAAABBBCCDAABBB');
-
+const result = uniqueInOrder('AAAABBBCCDAABBB');
+console.log(result);
 // const uniqueInOrder = iterable => {
-// 	return [...iterable].filter((a, i) => a !== iterable[i - 1]);
+// 	return [...iterable].filter((a, i) => a !== iterable[i + 1]);
 // };
