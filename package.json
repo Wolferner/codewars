@@ -2,7 +2,8 @@
 	"name": "codewars",
 	"version": "1.0.0",
 	"description": "A collection of solutions for Codewars challenges",
-	"main": "",
+	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
